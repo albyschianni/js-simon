@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.tabella {
+    width: 50%;
+    margin: 0 auto;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box {
+    background-color: white;
+    height: 96px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    border: 1px solid black;
+}
+.display {
+    display: none;
+}
